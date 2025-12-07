@@ -21,21 +21,21 @@ source .venv/bin/activate   # macOS/Linux .venv\Scripts\activate      # Windows 
 pip install -r requirements.txt
 ```
 
-4. Install DVC and initialize (if not already in repo):
+3. Install DVC and initialize (if not already in repo):
 
 ```bash
 pip install dvc
 dvc init
 ```
 
-5. Configure a local DVC remote:
+4. Configure a local DVC remote:
 
 ```bash
 mkdir -p ~/dvc-storage/insurance-portfolio dvc
 remote add -d localstorage ~/dvc-storage/insurance-portfolio
 ```
 
-6. Add your data to DVC:
+5. Add your data to DVC:
 
 ```bash
 # place CSV(s) in data/raw/, then:
