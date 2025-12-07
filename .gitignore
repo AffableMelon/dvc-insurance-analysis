@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+.venv/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter
+.ipynb_checkpoints
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# DVC
+*.dvc
+.dvc/cache/
+.dvc/tmp/
+.dvc/config.local
+
+# Data
+data/
+data/raw/
+data/processed/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# Python virtualenv
+.venv/
