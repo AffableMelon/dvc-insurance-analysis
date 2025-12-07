@@ -17,15 +17,15 @@ pip-delete-this-directory.txt
 .pytest_cache/
 
 # DVC
-*.dvc
+!.dvc
 .dvc/cache/
 .dvc/tmp/
 .dvc/config.local
 
 # Data
-data/
-data/raw/
-data/processed/
+data/*
+!data/**/*.dvc
+!data/*.dvc
 
 # OS
 .DS_Store
