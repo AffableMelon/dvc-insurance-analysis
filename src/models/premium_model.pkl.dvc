@@ -1,0 +1,5 @@
+outs:
+- md5: 3a32b970b469d1f6838cefc729818afc
+  size: 423224
+  hash: md5
+  path: premium_model.pkl

@@ -1,0 +1,5 @@
+outs:
+- md5: ce99ef1bf6fdeb2d3dbe822e5560999e
+  size: 12512947
+  hash: md5
+  path: claim_severity_rf.pkl
